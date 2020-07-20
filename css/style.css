@@ -54,5 +54,26 @@ margin-bottom: 3px; font: bold 16px/2.5 'arial';}
     color: #b9fd05;opacity: 0.5; transition: all 0.5s; }
 .sns li:hover {transform: scale(1.4); opacity: 1; }
 
+.txtbox {position: fixed; top:200px; right: 200px; width: 500px; height: 280px;} 
+.tit {font-size: 160px; font-family: 'Monoton', cursive; color: #b9fd05; position: absolute;
+top: 0px; right: 0px; letter-spacing: -1px;}
+.tit em {font-size: 50px; font-family: 'play', sans-serif; color: #fff;}  
+.txt {position: absolute; top: 200px; right: 0px; font-size: 34px; 
+font-family: 'play', sans-serif; color: #ddd; letter-spacing: -2px; }
+.txt strong {font-size: 34px arial; color: #b9fd05; margin-left: 20px; }
 
-
+.side {position: fixed; top: 0; right:-800px; width: 800px; height: 100%; 
+background-color: #111; opacity: 0.5; transform: skew(-40deg); transition: all 0.5s; }
+.side:hover {right: -500px; opacity: 0.8;}
+.side .con img {opacity: 0.5; }
+.side .con p img:hover {opacity: 1;}
+.side .con {width: 400px; height: 100%; position: absolute; left: 50px; 
+background: #000; transition: all 1s}
+.side:hover .con {left: 50px;}
+.side .con > p {position: absolute; left: 300px;}
+.side:hover .con > p {left: 50px;}
+.side .con > p:nth-child(1) {bottom:270px; transition: all 0.4s;}
+.side .con > p:nth-child(2) {bottom:160px ;transition: all 0.8s}
+.side .con > p:nth-child(3) {bottom:50px;transition: all 1.2s}
+.side .con > p > em { color:#a0bd50 ; font: bold normal 16px/1.7 arial;
+     transform: skew(40deg); display: inline-block;}
