@@ -51,7 +51,7 @@ margin-bottom: 3px; font: bold 16px/2.5 'arial';}
 
 .sns {position: fixed; top: 100px; right:100px;}
 .sns li {display: inline-block; font-size: 25px; margin-left: 20px; 
-    color:#fff ;opacity: 0.5; transition: all 0.5s; }
+    color: #b9fd05;opacity: 0.5; transition: all 0.5s; }
 .sns li:hover {transform: scale(1.4); opacity: 1; }
 
 
