@@ -70,10 +70,20 @@ background-color: #111; opacity: 0.5; transform: skew(-40deg); transition: all 0
 .side .con {width: 400px; height: 100%; position: absolute; left: 50px; 
 background: #000; transition: all 1s}
 .side:hover .con {left: 50px;}
-.side .con > p {position: absolute; left: 300px;}
+.side .con > p {position: absolute; left:315px;}
 .side:hover .con > p {left: 50px;}
 .side .con > p:nth-child(1) {bottom:270px; transition: all 0.4s;}
 .side .con > p:nth-child(2) {bottom:160px ;transition: all 0.8s}
 .side .con > p:nth-child(3) {bottom:50px;transition: all 1.2s}
 .side .con > p > em { color:#a0bd50 ; font: bold normal 16px/1.7 arial;
      transform: skew(40deg); display: inline-block;}
+.side .btncontents {position: absolute; bottom: 40px; left:100px; color: #b9fd05; font-size: 60px;
+transform: skew(40deg); width: 150px; height: 150px; 
+animation: arrowani 1.5s infinite linear  ;}
+.side .btncontents i {position: absolute; top: 0; right: 0;}
+.side .btncontents i:nth-child(1) {animation-delay:0s ;}
+.side .btncontents i:nth-child(2) {animation-delay:0.5s ;}
+.side .btncontents i:nth-child(3) {animation-delay: 1s;}
+.side:hover .btncontents {left: 700px;}
+@keyframes arrowani {0% { } 100% { transform: scale(1.4 ) skew(40deg) ;
+     opacity: 0; right:100px; } }
